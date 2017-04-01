@@ -1,0 +1,20 @@
+REACTION_FILE: reactions_full.txt
+OUTPUT_SPECIES: all
+CONSTANT_SPECIES: ['NO', NO2, OH, HO2, CH3O2, hv350, H2O(l), Cl]
+PROCESSES:
+   CHEMISTRY: ON
+   DRY_DEPOSITION: OFF
+   WET_DEPOSITION: OFF
+PARAMETERS:
+   Kaw_SPC1: 1.0
+   Kaw_SPC2: 1.e-1
+   Kaw_SPC3: 1.e-2
+   vdep_SPC1: 1.
+   vdep_SPC2: 0.1
+   vdep_SPC3: 0.01
+   M_SPC1: 1.
+   M_SPC2: 2.
+   M_SPC3: 3.
+BOX_SIZE:
+   z: 500
+TIME_OUT: ['1987 6 7 00:00','1987 6 7 12:00','1987 6 8 00:00','1987 6 8 12:00','1987 6 9 00:00', '1987 6 9 12:00']

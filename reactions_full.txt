@@ -1,0 +1,56 @@
+#    Reaction ,                 rate , rate uncertainty , notes
+
+# FT-aldehyde degradation
+C8F17CH2C(O)H + hv350 -> C8F17CH2OO , 1.5e-21, 7.5e-22, full spectrum yield
+C8F17CH2C(O)H + OH -> C8F17CH2C(O)OO   , 2.0e-12 ,   0.4e-12
+C8F17CH2C(O)H + Cl -> C8F17CH2C(O)OO   , 1.9e-11 ,   0.2e-11
+C8F17CH2C(O)OO + NO2 -> C8F17CH2C(O)OONO2 , 1.1e-11:298.:-2, 0.1e-11
+C8F17CH2C(O)OONO2 -> C8F17CH2C(O)OO , 2.8e16:-13580:-1, 0.2e16
+C8F17CH2C(O)OO + NO -> C8F17CH2OO , 7e-12:340:-1, 0.5e-12
+C8F17CH2C(O)OO + HO2 -> C8F17CH2OO , 3.1e-13:1040:-1, 0.3e-13, Yields like PF
+C8F17CH2C(O)OO + HO2 -> C8F17CH2C(O)OH, 1.2e-13:1040:-1, 0.1e-13, 
+C8F17CH2C(O)OO + CH3O2 -> C8F17CH2OO, 1.8e-12:500:-1, 1.8e-13 ,analog to HC jpl
+C8F17CH2C(O)OO + CH3O2 -> C8F17CH2C(O)OH, 2.0e-13:500:-1, 2.0e-14
+C8F17CH2C(O)OH + OH -> C8F17CH2OO, 2.02e-14:920:-1, 0.3e-14
+C8F17CH2C(O)OH + OH -> C8F17C(O)H, 1.13e-14:920:-1, 0.16e-14
+
+C8F17CH2OO + HO2 -> C8F17CH2OOH , 4.1e-13:750:-1, 0.4e-13
+C8F17CH2OO + NO -> C8F17CH2O , 2.8e-12:300:-1 , 0.14e-12 ,
+C8F17CH2OO + CH3O2 -> C8F17CH2O , 1.9e-14:390:-1, 0.13e-14,
+C8F17CH2OO + CH3O2 -> C8F17CH2OH , 7.6e-14:390:-1, 0.53e-14,
+C8F17CH2OH + OH -> C8F17C(O)H , 1.02e-13:-350:-1, 0.1e-13, 
+C8F17CH2OH + Cl -> C8F17C(O)H , 6.5e-13:-350:-1, 0.5e-13,
+C8F17CH2OOH + OH -> C8F17CH2OO , 4.0e-12:200:-1, 0.5e-12, estimate non-quant
+C8F17CH2O -> C8F17OO ,2.5e1, 0.1e1
+
+# PF-aldehyde degradation
+C8F17C(O)H + hv350 -> C8F17OO, 1.6e-21,0.12e-21, q yield (0.02* max xsec)
+C8F17C(O)H + OH -> C8F17C(O)OO, 6.1e-13 ,    0.5e-13, for C4
+C8F17C(O)H + Cl -> C8F17C(O)OO  , 2.8e-12 ,    0.7e-12,  for C5
+C8F17C(O)H + H2O(l) -> C8F17CHOHOH , 1.0e-3 , 1.0e-4 ,  
+C8F17CHOHOH + OH -> C8F17C(O)OH  ,   1.22e-13 ,   0.26e-13,  for C1
+C8F17CHOHOH + Cl -> C8F17C(O)OH  ,   5.84e-13 ,   0.92e-13,  for C1
+
+# PF-acyl peroxy degradation
+C8F17C(O)OO + NO2 -> C8F17C(O)OONO2 , 1.1e-11:298.:-2, 0.1e-11
+C8F17C(O)OONO2 -> C8F17C(O)OO , 2.8e16:-13580:-1, 0.2e16
+C8F17C(O)OO + NO -> C8F17OO , 8.1e-12:270:-1, 0.6e-12
+C8F17C(O)OO + HO2 -> C8F17C(O)OH , 3.1e-13:1040:-1,0.4e-13 , C4 yd 0.73 +/-0.18
+C8F17C(O)OO + HO2 -> C8F17OO , 1.2e-13:1040:-1 , 0.4e-13, C4 yield 0.27 +/-0.18
+C8F17C(O)OO + CH3O2 -> C8F17OO, 1.8e-12:500:-1,1.8e-13 , analog to HC jpl
+C8F17C(O)OO + CH3O2 -> C8F17C(O)OH, 2.0e-13:500:-1,2.e-14 , 
+
+# PF-peroxy degradation
+C8F17OO + NO -> C8F17O ,  2.8e-12:300.:-1, 1.4e-13
+C8F17OO + HO2 -> C8F17O ,  4.1e-13:500.:-1 , 0.4e-13
+C8F17OO + CH3O2 -> C8F17O , 2.7e-12:-470.:-1 , 1.9e-13
+C8F17OO + CH3O2 -> C8F17OH , 1.0e-13:660:-1 , 0.6e-14
+C8F17OH -> C7F15C(O)F ,  3.86e-6, 0.7e-6 ,  
+#C8F17O -> SmallChainCompounds , 1.0e-6,  , just a rename
+
+# PF-acyl fluoride degradation
+C7F15C(O)F + H2O(l) -> C7F15C(O)OH  , 3.86e-6, 0.7e-6 ,  lifetimes 5.9 - 7.6d
+
+
+
+

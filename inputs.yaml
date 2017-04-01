@@ -1,0 +1,18 @@
+CONDITIONS:
+   T: 273.0
+   TSP: 10.0
+   rainrate: 0.001
+   cloud_char_height: 500.
+   lw_air_frac: 0.01
+   actinic_flux: 0.001
+
+INITIAL CONCENTRATIONS:
+   C8F17CH2C(O)H: 1.
+   OH: 2.e6
+   'NO': 2.5e8
+   NO2: 2.5e9
+   HO2: 2.5e9
+   CH3O2: 2.5e8
+   hv350: 1.e15
+   H2O(l): 1.
+   Cl: 1.e4 
